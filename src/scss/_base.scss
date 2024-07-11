@@ -1,0 +1,25 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    background-color: var(--clr-eggshell);
+    color: var(--clr-wenge-brown);
+}
+
+main {
+    min-height: 100vh; 
+    //grid centering trick
+    display: grid;
+    place-content: center;
+}
+
+@media (max-width: 480px) {
+    /* this to made the design look decent on tablets  */
+    main{
+        height: 100%;
+        width: 100%;
+    }
+}

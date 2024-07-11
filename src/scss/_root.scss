@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/*
+font-family: "Young Serif", serif;
+font-family: "Outfit", sans-serif;
+*/
+//this design colors
+:root{
+--clr-white: hsl(0, 0%, 100%);
+--clr-rose-white: hsl(330, 100%, 98%);
+--clr-eggshell:hsl(30, 54%, 90%);
+--clr-light-grey: hsl(30, 18%, 87%);
+--clr-wenge-brown:hsl(30, 10%, 34%);
+--clr-dark-charcoal:hsl(24, 5%, 18%);
+--clr-light-pink:hsl(322, 100%, 98%);
+--clr-dark-violet : hsl(336, 54%, 30%);
+--clr-dark-brown : hsl(13, 46%, 37%);
+//fonts
+--primary-font : "Outfit", sans-serif;
+--secondary-font : "Young Serif", serif;
+}
